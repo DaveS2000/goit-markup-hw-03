@@ -121,9 +121,10 @@ body {
   width: 1440px;
   height: 600px;
   left: 0px;
-  top: 72px;
+  top: 188px;
   background-color: #2e2f42;
 }
+
 .hero-header {
   /* Header 1 */
   font-family: var(--font-family);
@@ -348,6 +349,15 @@ body {
   border-radius: 4px;
 
   cursor: pointer;
+}
+
+.portf-sec-two-item {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 72px 156px 120px 156px;
+  background: #ffffff;
+  /* CORNFLOWER */
+  border: 1px solid #e7e9fc;
 }
 
 .portf-sec-two-headers {
