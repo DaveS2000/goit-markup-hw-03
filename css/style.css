@@ -213,6 +213,17 @@ body {
   color: #2e2f42;
 }
 
+.sec-two-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 72px 156px 120px;
+}
+
+.sec-two-item:not(:last-child) {
+  margin-right: 24px;
+}
+
 .sec-three {
   /* CLOUD */
   background: #f4f4fd;
@@ -226,9 +237,22 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  margin: 120px auto 72px;
 
   /* NAVY BLUE */
   color: #2e2f42;
+}
+
+.sec-three-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0px 156px 120px;
+}
+
+.sec-three-item:not(:last-child) {
+  margin-right: 24px;
 }
 
 .sec-three-item {
