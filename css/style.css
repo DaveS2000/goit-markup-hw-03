@@ -30,9 +30,18 @@ body {
   background: #ffffff;
   /* CORNFLOWER */
   border-bottom: 1px solid #e7e9fc;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -47,6 +56,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  margin-right: 76px;
   /* NAVY BLUE */
   color: #2e2f42;
 }
@@ -57,9 +67,8 @@ body {
 }
 
 .header-list {
-}
-
-.header-item {
+  display: flex;
+  gap: 40px;
 }
 
 .header-link {
@@ -76,7 +85,11 @@ body {
   color: #2e2f42;
 }
 .header-adress {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
+
 .header-post {
   font-family: var(--font-family);
   font-style: normal;
@@ -103,7 +116,6 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   /* SLATE */
   color: var(--text-color);
 }
@@ -118,11 +130,15 @@ body {
 }
 
 .hero {
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 188px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-header {
@@ -133,9 +149,12 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  width: 494px;
+  height: 120px;
+  left: 473px;
+  top: 260px;
 
-  margin: 188px 473px 0px 473px;
-
+  margin: 0px auto;
   color: #ffffff;
 }
 
@@ -149,6 +168,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
 
+  margin: 48px auto 0;
   padding: 16px 32px;
   gap: 10px;
 
@@ -156,7 +176,6 @@ body {
   height: 51px;
   left: 20px;
   top: 20px;
-  margin: 48px 635px 188px 636px;
 
   color: #ffffff;
   /* IRIS */
@@ -322,6 +341,12 @@ body {
 
 /*Porfolio*/
 
+.portf-sec-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .portf-sec-one-button {
   /* Button Text */
   font-family: var(--font-family);
@@ -351,13 +376,32 @@ body {
   cursor: pointer;
 }
 
+.portf-sec-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.portf-sec-two-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 48px;
+  column-gap: 24px;
+  margin: 72px 156px 120px 156px;
+  padding: 0;
+}
+
+
 .portf-sec-two-item {
   display: flex;
   flex-flow: row wrap;
-  padding: 72px 156px 120px 156px;
+  width: 360px;
+  height: 420px;
+  left: 156px;
+  top: 1224px;
   background: #ffffff;
   /* CORNFLOWER */
   border: 1px solid #e7e9fc;
+
 }
 
 .portf-sec-two-headers {
