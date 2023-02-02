@@ -30,8 +30,8 @@ body {
   background: #ffffff;
   /* CORNFLOWER */
   border-bottom: 1px solid #e7e9fc;
-  padding-left: auto;
-  padding-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 .header-container {
@@ -383,13 +383,11 @@ body {
 .portf-sec-two-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
+  align-content: stretch;
   gap: 48px;
   column-gap: 24px;
   margin: 72px 156px 120px 156px;
-  padding: 0;
 }
-
 
 .portf-sec-two-item {
   display: flex;
@@ -401,7 +399,6 @@ body {
   background: #ffffff;
   /* CORNFLOWER */
   border: 1px solid #e7e9fc;
-
 }
 
 .portf-sec-two-headers {
