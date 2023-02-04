@@ -380,17 +380,25 @@ body {
   margin-right: 24px;
 }
 
+.portf-sec-two-container{
+width: 1128px;
+}
+
 .portf-sec-two-list {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
-  gap: 48px;
+  row-gap: 48px;
   column-gap: 24px;
-  margin: 72px 156px 120px 156px;
+
 }
 
 .portf-sec-two-item {
-  display: flex;
+flex-basis: calc((100% - 48px) / 3);
+
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.88);
+
+  /* display: flex;
   flex-flow: row wrap;
   width: 360px;
   height: 420px;
@@ -398,7 +406,8 @@ body {
   top: 1224px;
   background: #ffffff;
   /* CORNFLOWER */
-  border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc; */
+
 }
 
 .portf-sec-two-headers {
