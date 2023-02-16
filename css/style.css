@@ -380,8 +380,8 @@ body {
   margin-right: 24px;
 }
 
-.portf-sec-two-container{
-width: 1128px;
+.portf-sec-two-container {
+  width: 1128px;
 }
 
 .portf-sec-two-list {
@@ -390,24 +390,21 @@ width: 1128px;
   align-content: stretch;
   row-gap: 48px;
   column-gap: 24px;
-
 }
 
 .portf-sec-two-item {
-flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.88);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.88);
 
   /* display: flex;
   flex-flow: row wrap;
   width: 360px;
   height: 420px;
   left: 156px;
-  top: 1224px;
   background: #ffffff;
   /* CORNFLOWER */
-  border: 1px solid #e7e9fc; */
-
+  border: 1px solid #e7e9fc;
 }
 
 .portf-sec-two-headers {
